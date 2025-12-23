@@ -1,0 +1,4 @@
+Instructions to run the Project:
+1. Open Windows PowerShell as Administrator.
+2. Go to the directory D/1projects/Os_Utilia.
+3. Now run the command python app.py and click the port link in the command response given
