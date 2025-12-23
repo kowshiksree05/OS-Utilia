@@ -1,19 +1,83 @@
-OSutilis - > Operating System Utilities.
--> for to incorperate the files . Follow below : push the files like these ,
+# OSutilis – Operating System Utilities
 
-Structure to Download
+OSutilis is a Flask-based system monitoring application that provides real-time insights into operating system resources such as CPU, memory, disk usage, running processes, network activity, and logged-in users. It also exposes RESTful APIs for retrieving system information programmatically.
+
+---
+
+## 📁 Project Structure
+
+```
 project/
 │
-├── app.py                # Main application file
-├── templates/            # Create a new folder templates
-│   └── index.html        # HTML template
-OSutilia is a Flask-based system monitoring application that provides real-time insights into system resources, running processes, network activity, disk usage, and more. It exposes a set of RESTful APIs for retrieving system information and managing processes efficiently.
+├── app.py               # Main Flask application
+│
+├── templates/           # HTML templates directory
+│   └── index.html       # Main UI template
+│
+└── static/              # (Optional) CSS / JS files
+```
 
-📌 Features
-System Resource Monitoring (CPU, Memory, Disk usage)
-Process Management (List running processes with pagination)
-Network Monitoring (Active connections, interface details)
-User Session Tracking (List logged-in users)
-Disk and Sensor Data Retrieval
-REST API for system insights
-Lightweight and easy-to-use Flask backend
+---
+
+## 🚀 Features
+
+- System Resource Monitoring (CPU, Memory, Disk usage)
+- Process Management (List running processes with pagination)
+- Network Monitoring (Active connections, interface details)
+- User Session Tracking (List logged-in users)
+- Disk and Sensor Information Retrieval
+- RESTful APIs for system insights
+- Lightweight and easy-to-use Flask backend
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Flask
+- psutil
+- HTML (Jinja2 Templates)
+
+---
+
+## 📦 Requirements
+
+- Python 3.9 or higher
+- Flask
+- psutil
+
+---
+
+## ⚙️ Installation
+
+```
+pip install flask psutil
+```
+
+---
+
+## ▶️ Running the Application
+
+```
+python app.py
+```
+
+Open your browser and navigate to:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 📌 Notes
+
+- This project uses Flask’s development server.
+- Intended for learning, academic projects, and experimentation.
+- Not recommended for production deployment without a proper WSGI server (e.g., Gunicorn).
+
+---
+
+## 📄 License
+
+This project is licensed under the BSD 3-Clause License.
